@@ -13,7 +13,6 @@ export const Title = styled.h1`
 
 export const TitleWrapper = styled.div`
    height: 100%;
-  //  padding-top: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
