@@ -32,6 +32,7 @@ export const BasicInformation = styled.section`
 
   img {
     border-radius: 50%;
+    object-fit: cover;
   }
 `;
 
