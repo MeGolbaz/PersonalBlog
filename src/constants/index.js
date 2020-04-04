@@ -6,24 +6,26 @@ exports.PORTFOLIO = 'portfolio';
 exports.RESUME = 'resume';
 
 // Site Information
-exports.NAME = 'Gatsby Advanced Blog';
-exports.TITLE = 'Gatsby Advanced Blog';
-exports.PREFIX = 'WONISM | ';
-exports.DESCRIPTION = 'Create your own blog with Gatsby Advanced Blog';
-exports.AUTHOR = 'megolbaz';
+exports.NAME = 'Mehdi Golbaz';
+exports.TITLE = 'Mehdi Golbaz';
+exports.PREFIX = '';
+exports.DESCRIPTION = 'Mehdi Golbaz personal blog';
+exports.AUTHOR = 'Mehdi Golbaz';
 exports.EMAIL = 'meddi.golbaz@gmail.com';
 exports.KEYWORDS = [
-  'Gatsby',
-  'ReactJS',
+  'Mehdi',
+  'Golbaz',
+  'UX',
+  'Design'
 ].join(', ');
-exports.SITE_URL = 'https://wonism.github.io';
-exports.PROFILE = 'https://avatars3.githubusercontent.com/u/42737121?s=200&v=4';
+exports.SITE_URL = 'https://megolbaz.com';
+exports.PROFILE = 'https://avatars3.githubusercontent.com/u/50069418?s=400&u=a235ea6352bdad9123f4915acfbae0765251e1cf&v=4';
 
 // Social
 exports.GITHUB_ID = 'megolbaz';
 exports.TWITTER_ID = 'megolbaz';
-exports.FACEBOOK_ID = 'j1.chic';
-exports.LINKEDIN_ID = 'wonism';
+exports.FACEBOOK_ID = 'mmehdi.golbaz';
+exports.LINKEDIN_ID = '';
 
 // Disqus (Recommend you to use this)
 exports.DISQUS_ID = 'sample';
