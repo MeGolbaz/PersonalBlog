@@ -21,20 +21,20 @@ path: "/resume/"
   - 2019
 
 ## Portfolio
-- My Projects on GitHub (https://https://github.com/MeGolbaz)
+- My Projects on GitHub (https://github.com/MeGolbaz)
 - My Designs on Dribbble (https://dribbble.com/MEGOLBAZ)
 
 
 ## Skills
 - JavaScript
   - TypeScript
-  - ReactJS
+  - React JS
   - Node JS
   - JQuery
   - Ajax
 - CSS
   - SASS
-  - Less
+  - LESS
   - Bootstrap
   - Responsive Design
 - User Experience/User Interface
@@ -46,7 +46,7 @@ path: "/resume/"
   - Communication Skills
 - Design Tools
   - Adobe Photoshop
-  - Illustrator
+  - Adobe Illustrator
   - Sketch App
   - Premiere Pro  
   
