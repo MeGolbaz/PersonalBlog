@@ -6,13 +6,18 @@ path: "/resume/"
 ---
 
 ## Experience
-- Engineer at OOO ∙ 2000. 01 ~ Present
-  - Develop something
-  - Maintain something
+- Front End Developer Intern 2019
+  - Working effectively with Back-End developers to redesign an interactive website platform
+  - Writing the HTML, CSS and JavaScript codes of the Front-End
+- UX/UI Design Intern 2019
+  - Designing, developing and prototyping digital media for marketing and signage operations
+  - Conducted user research and testing to enhance experience and improve product design in an agile environment
 
 ## Education
-- B.S. in Computer Science Engineering at OOO
-  - 2000. 01 ~ 2000. 01
+- BSc, Architectural Engineering
+  - 2016
+- Bootcamps, Web Design and UX/UI Design
+  - 2019
 
 ## Projects
 - Gatsby Advanced Blog (https://github.com/wonism/gatsby-advanced-blog) ∙ 2000. 01 ~ Present
