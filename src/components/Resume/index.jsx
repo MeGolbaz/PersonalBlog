@@ -72,15 +72,6 @@ const Resume = ({
               <FaGithub />
             </a>
           ) : null}
-          {TWITTER_ID ? (
-            <a
-              href={`https://twitter.com/${TWITTER_ID}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaTwitter />
-            </a>
-          ) : null}
           {FACEBOOK_ID ? (
             <a
               href={`https://www.facebook.com/${FACEBOOK_ID}`}
