@@ -18,7 +18,7 @@ const Home = ({ portfolios }) => (
     </Helmet>
     <Wrapper isHome>
       <Title>
-        Hey - This is Mehdi. Welcome to my website!
+        Hi - My name is Mehdi. Welcome to my website!
       </Title>
     </Wrapper>
     {portfolios.length >= 4 ? (
