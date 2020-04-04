@@ -16,11 +16,21 @@
   "bugs": {
     "url": "https://github.com/wonism/gatsby-advanced-blo/issues"
   },
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "eslint --ext .js,.jsx --config .eslintrc.js",
+    "dev": "gatsby develop",
+    "clean": "rm -rf .cache && rm -rf public",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && surge public megolbaz.com",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "peerDependencies": {
     "gatsby": ">=2.2.9",
+    "prop-types": ">=15.7.2",
     "react": ">=16.8.5",
     "react-dom": ">=16.8.5",
-    "prop-types": ">=15.7.2",
     "styled-components": ">=4.2.0"
   },
   "dependencies": {
@@ -73,17 +83,8 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "prettier-eslint-cli": "^4.7.1",
-    "prismjs": "^1.15.0"
-  },
-  "scripts": {
-    "precommit": "lint-staged",
-    "lint": "eslint --ext .js,.jsx --config .eslintrc.js",
-    "dev": "gatsby develop",
-    "clean": "rm -rf .cache && rm -rf public",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prismjs": "^1.15.0",
+    "surge": "^0.21.3"
   },
   "browserslist": [
     "> 10%",
