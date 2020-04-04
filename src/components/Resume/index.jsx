@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { FaPrint, FaGithub, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import Clearfix from '~/components/Common/Clearfix';
 import { PREFIX, AUTHOR, EMAIL, GITHUB_ID, TWITTER_ID, FACEBOOK_ID, LINKEDIN_ID } from '~/constants';
-import * as profileUrl from '~/resources/me.png';
+import * as profileUrl from '~/resources/Me.jpg';
 import { Wrapper, BasicInformation, SocialInformation, MDInformation, Button } from './styled';
 
 const Resume = ({
