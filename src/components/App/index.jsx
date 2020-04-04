@@ -49,9 +49,11 @@ export default class App extends Component {
     const theme = isDracula ? {
       color: WHITE_COLOR,
       backgroundColor: BLACK_COLOR,
+      textBGColor: 'yellow'
     } : {
       color: BLACK_COLOR,
       backgroundColor: WHITE_COLOR,
+      textBGColor: 'orange'
     };
 
     return (

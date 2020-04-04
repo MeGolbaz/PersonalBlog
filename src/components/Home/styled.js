@@ -8,7 +8,8 @@ export const Title = styled.h1`
   font-size: 61px;
   font-family: 'Source Sans Pro';
   text-align: center;
-  background-color: yellow;
+  background-color: ${({ theme: { textBGColor } }) => textBGColor };
+
 `;
 
 export const TitleWrapper = styled.div`
