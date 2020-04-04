@@ -31,7 +31,6 @@ const Home = ({ portfolios }) => (
             if (image !== null) {
               return (
                 <PortfolioCard key={path}>
-                  <Link to={path}>
                     {image.includes('//') ? (
                       <img src={image} alt="portfolio" />
                     ) : (
@@ -40,7 +39,6 @@ const Home = ({ portfolios }) => (
                     <h6>
                       {title}
                     </h6>
-                  </Link>
                 </PortfolioCard>
               );
             }
