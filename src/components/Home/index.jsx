@@ -36,9 +36,6 @@ const Home = ({ portfolios }) => (
                     ) : (
                       <img src={require(`~/resources/${image}`)} alt="portfolio" />
                     )}
-                    <h6>
-                      {title}
-                    </h6>
                 </PortfolioCard>
               );
             }
