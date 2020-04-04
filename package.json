@@ -17,7 +17,6 @@
     "url": "https://github.com/wonism/gatsby-advanced-blo/issues"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "eslint --ext .js,.jsx --config .eslintrc.js",
     "dev": "gatsby develop",
     "clean": "rm -rf .cache && rm -rf public",
@@ -104,7 +103,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run precommit"
+      "pre-commit": ""
     }
   }
 }
