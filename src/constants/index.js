@@ -25,7 +25,7 @@ exports.PROFILE = 'https://avatars3.githubusercontent.com/u/50069418?s=400&u=a23
 exports.GITHUB_ID = 'megolbaz';
 exports.TWITTER_ID = 'megolbaz';
 exports.FACEBOOK_ID = 'mmehdi.golbaz';
-exports.LINKEDIN_ID = '';
+exports.LINKEDIN_ID = 'mehdigolbaz';
 
 // Disqus (Recommend you to use this)
 exports.DISQUS_ID = 'sample';
