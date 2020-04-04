@@ -52,6 +52,7 @@ export const GnbWrapper = styled.div`
   font-family: Lato;
   font-weight: 600;
   z-index: 3000;
+  background-color: white;
 
   @media (max-width: 414px) {
     height: 60px;
