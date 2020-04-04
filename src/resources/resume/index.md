@@ -6,6 +6,7 @@ path: "/resume/"
 ---
 
 ## Experience
+- Freelance, Front-End Development and UX/UI Design 2019-Present
 - Front End Developer Intern 2019
   - Working effectively with Back-End developers to redesign an interactive website platform
   - Writing the HTML, CSS and JavaScript codes of the Front-End
@@ -19,16 +20,33 @@ path: "/resume/"
 - Bootcamps, Web Design and UX/UI Design
   - 2019
 
-## Projects
-- Gatsby Advanced Blog (https://github.com/wonism/gatsby-advanced-blog) ∙ 2000. 01 ~ Present
-  - Integrate Redux
-    - Use Redux, Redux Saga, Reselect...
+## Portfolio
+- My Projects on GitHub (https://https://github.com/MeGolbaz)
+- My Designs on Dribbble (https://dribbble.com/MEGOLBAZ)
+
 
 ## Skills
 - JavaScript
-  - ES2015+
+  - TypeScript
   - ReactJS
-  - Lodash
+  - Node JS
+  - JQuery
+  - Ajax
 - CSS
   - SASS
   - Less
+  - Bootstrap
+  - Responsive Design
+- User Experience/User Interface
+  - Persona Creation
+  - Mockups
+  - Information Architecture
+  - User Testing
+  - Prototyping & Wireframing
+  - Communication Skills
+- Design Tools
+  - Adobe Photoshop
+  - Illustrator
+  - Sketch App
+  - Premiere Pro  
+  
