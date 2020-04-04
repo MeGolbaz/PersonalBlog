@@ -126,6 +126,7 @@ export const Home = styled(FaHome)`
 `;
 
 export const StyledLink = styled(Link)`
+  font-size: 25px;
   @media (max-width: 414px) {
     &[href="/"] {
       display: flex;
