@@ -129,13 +129,13 @@ const Gnb = ({
                 <Home />
               </StyledLink>
             </ListMenu>
-            {hasPortfolio ? (
+            {/* {hasPortfolio ? (
               <ListMenu>
                 <StyledLink to="/portfolios" className={isPortfolio ? 'active' : ''} onClick={toggleMenu}>
                   Portfolio
                 </StyledLink>
               </ListMenu>
-            ) : null}
+            ) : null} */}
             <ListMenu>
               <StyledLink to="/resume" className={isResume ? 'active' : ''} onClick={toggleMenu}>
                 Resume
@@ -201,13 +201,13 @@ const Gnb = ({
             <Home />
           </StyledLink>
         </ListMenu>
-        {hasPortfolio ? (
+        {/* {hasPortfolio ? (
           <ListMenu>
             <StyledLink to="/portfolios" className={isPortfolio ? 'active' : ''}>
               Portfolio
             </StyledLink>
           </ListMenu>
-        ) : null}
+        ) : null} */}
         <ListMenu>
           <StyledLink to="/resume" className={isResume ? 'active' : ''}>
             Resume
