@@ -5,7 +5,7 @@ const Footer = () => (
   <FooterWrapper>
     Theme by @
     <a
-      href="https://github.com/wonism/gatsby-advanced-blog"
+      href="https://github.com/megolbaz"
       target="_blank"
       rel="noreferrer noopener"
     >
