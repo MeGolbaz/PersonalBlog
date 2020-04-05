@@ -12,6 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Deploying to surge
+    working-directory: src
     steps:
       - uses: actions/checkout@v1
       - name: Install surge and fire deployment
