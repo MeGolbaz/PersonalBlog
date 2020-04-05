@@ -19,7 +19,7 @@ const Home = ({ portfolios }) => (
     <Wrapper isHome>
       <TitleWrapper>
         <Title>
-          Hi - My name is Mehdi. Welcome to my website!
+          Hi - My name is Mehdi. Welcome to my Website!
         </Title>
       </TitleWrapper>
     </Wrapper>
