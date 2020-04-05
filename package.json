@@ -88,7 +88,7 @@
   },
   "git": { 
     "scripts": {
-       "pre-push": "surge --project public --domain megolbaz.com"
+       "pre-push": "yarn run deploy"
       }
   },
   "browserslist": [
