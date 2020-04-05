@@ -23,6 +23,12 @@ module.exports = {
       },
     ],
     '@babel/plugin-syntax-dynamic-import',
-    'babel-plugin-root-import',
+    [
+      'babel-plugin-root-import',
+      {
+        "rootPathSuffix": "./src",
+        "rootPathPrefix": "~/"
+      }
+    ]
   ],
 };
