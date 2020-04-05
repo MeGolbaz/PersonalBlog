@@ -4,25 +4,20 @@
 #
 # 1. Set up a secret in your repository named SURGE_TOKEN 
 #
+name: Deploy Website
+
 on: [push]
-env:
-  WEBAPP_PACKAGE_PATH: 'public'       # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '12.16'               # set this to the node version to use
 
 jobs:
-  build-and-deploy:
-    name: Build and Deploy
+  build:
     runs-on: ubuntu-latest
+    name: Deploying to surge
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build
-      run: |
-        # Build the project
-        npm install
-        npm run build
-    - name: 'Deploy to Surge'
-      run: surge ${{ env.WEBAPP_PACKAGE_PATH }} ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - uses: actions/checkout@v1
+      - name: Install surge and fire deployment
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm install
+      - run: surge public ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+
