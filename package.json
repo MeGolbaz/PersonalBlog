@@ -86,11 +86,6 @@
     "prismjs": "^1.15.0",
     "surge": "^0.21.3"
   },
-  "git": { 
-    "scripts": {
-       "pre-push": "yarn run deploy"
-      }
-  },
   "browserslist": [
     "> 10%",
     "IE >= 9",
