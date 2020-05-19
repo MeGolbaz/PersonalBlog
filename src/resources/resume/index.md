@@ -9,10 +9,10 @@ path: "/resume/"
 - Freelance, Front-End Development and UX/UI Design 2019-Present
 - Front End Developer Intern 2019
   - Working effectively with Back-End developers to redesign an interactive website platform
-  - Writing the HTML, CSS and JavaScript codes of the Front-End
+  - Writing the HTML, CSS and JavaScript codes of the E-Platform
 - UX/UI Design Intern 2019
   - Designing, developing and prototyping digital media for marketing and signage operations
-  - Conducted user research and testing to enhance experience and improve product design in an agile environment
+  - Created Site Maps and Low fidelity wire-frames to conduct a innovative user journey
 
 ## Education
 - BSc, Architectural Engineering
