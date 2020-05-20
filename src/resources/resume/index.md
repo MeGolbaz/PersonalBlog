@@ -6,7 +6,7 @@ path: "/resume/"
 ---
 
 ## Experience
-- Freelance, Front-End Development and UX/UI Design 2019-Present
+- Freelance, Front-End Development and UX/UI Design 2020-Present
 - Front End Developer Intern 2019
   - Working effectively with Back-End developers to redesign an interactive website platform
   - Writing the HTML, CSS and JavaScript codes of the E-Platform
